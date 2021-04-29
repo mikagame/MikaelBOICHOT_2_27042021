@@ -92,12 +92,63 @@ header h2 {
 
 #hebergements {
     border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    width: 70%;
+    margin-right: 15px;
+    
+}
+
+.flexheb {
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 #hebergements img {
     width: 25%;
     height: auto;
 }
+
+.vignettesHebergements {
+    border: 1px solid #F2F2F2;
+    background-color: white;
+    width: 25%;
+    height: auto;
+
+}
+
+.hebpop {
+    display: flex;
+}
+
+.populaires {
+    width: 30%;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    margin-left: 15px;
+}
+
+.populaires img {
+    width: 25%;
+    height: auto;
+    
+}
+
+.lesPlusPopulaires {
+    display: flex;
+}
+
+
+/***Activites***/
+
+#activites img {
+    width: 25%;
+    height: auto;
+
+}
+
 
 /***Footer***/
 
