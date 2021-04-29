@@ -7,9 +7,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
+
+
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0px;
+    
+}
+
+.contain {
     padding: 2em;
 }
 
@@ -152,18 +158,29 @@ header h2 {
 
 /***Footer***/
 
-footer {
+.flexfoot {
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     width: 75%;
     display: flex;
     justify-content: space-between;
+    
+}
+
+footer {
+    background-color: #F2F2F2;
+
 }
 
 footer p {
     margin-bottom: 0px;
+    font-weight: bold ;
 }
 
 footer a {
     text-decoration: none;
+    color: black;
     
 }
 
