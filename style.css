@@ -85,6 +85,7 @@ header h2 {
 
 
 .filtres {
+    margin-top: 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,7 +95,30 @@ header h2 {
 
 .filtres a {
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 2px solid #DEEBFF;
+    border-radius: 25px;
+    padding-right: 1em;
+    color: black;
+    font-weight: bold;
+    
 }
+
+.filtres i {
+   margin-right: 0.8em;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065fc;
+   
+}
+
+/***Sections***/
 
 #hebergements {
     border: 1px solid #F2F2F2;
@@ -102,6 +126,7 @@ header h2 {
     background-color: #F2F2F2;
     width: 70%;
     margin-right: 15px;
+    padding: 1em;
     
 }
 
@@ -113,18 +138,31 @@ header h2 {
 
 #hebergements img {
     width: 100%;
-    height: 150px;
+    height: 105px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
    
 }
 
+#hebergements a {
+    text-decoration: none;
+}
+
 .vignettesHebergements {
     border: 1px solid #F2F2F2;
     background-color: white;
+    border-radius: 15px;
     width: 33%;
+    padding: 0.2em;
+    margin: 1em;
     height: auto;
 
+}
+
+h3,h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0.7em;
 }
 
 .hebpop {
