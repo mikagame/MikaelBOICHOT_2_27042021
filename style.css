@@ -1,3 +1,10 @@
+/***Charte graphique
+        icônes : Font Awesome
+        couleurs: bleu #0065FC, version plus claire #DEEBFF, gris #F2F2F2
+        police Raleway
+                                                                            ***/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 body {
@@ -5,6 +12,8 @@ body {
     margin: 0px;
     padding: 2em;
 }
+
+            /****** Style Header ******/
 
 .logo img {
     height: 50px;
@@ -22,6 +31,7 @@ body {
 
 nav ul {
     display: flex;
+
 
 }
 
@@ -54,12 +64,14 @@ nav li:hover {
 }
 
 h1 {
-    font-weight: bold;
-    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 5px;
 }
 
 header h2 {
     margin-top: 0px;
+    font-size: 14px;
 }
 
 
@@ -76,4 +88,44 @@ header h2 {
 
 .filtres a {
     text-decoration: none;
+}
+
+#hebergements {
+    border: 1px solid #F2F2F2;
+}
+
+#hebergements img {
+    width: 25%;
+    height: auto;
+}
+
+/***Footer***/
+
+footer {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    
+}
+
+footer li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.apropos {
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul {
+    padding-left: 0px;
 }
