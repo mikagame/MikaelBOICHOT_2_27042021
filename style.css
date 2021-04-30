@@ -93,9 +93,10 @@ header h2 {
 form i {
     background-color: #F2F2F2;
     padding: 10px;
+    padding-top: 11px;
     padding-right: 12px;
     padding-left: 12px;
-    margin-right: -4px;
+    margin-right: -2px;
     border: 2px solid #F2F2F2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -103,8 +104,10 @@ form i {
 
 .zoneRecherche {
     border: 1px solid #F2F2F2;
-    padding: 0px;
+    
     padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 30px;
     padding-bottom: 11px;
     width: 150px;
    
@@ -120,6 +123,11 @@ form i {
     
     color: white;
     background-color: #0065fc;
+}
+
+form {
+    display:flex;
+    align-items: center;
 }
 
 
@@ -139,7 +147,7 @@ form i {
     text-decoration: none;
     display: flex;
     align-items: center;
-    border: 2px solid #DEEBFF;
+    border: 2px solid #F2F2F2;
     border-radius: 25px;
     padding-right: 1em;
     color: black;
@@ -193,6 +201,11 @@ form i {
     margin-right: 15px;
     padding: 1em;
     
+}
+
+#hebergements h2 {
+    margin-bottom: 0px;
+    padding-left: 20px;
 }
 
 .flexheb {
@@ -252,16 +265,34 @@ h3,h4 {
     border-radius: 15px;
     background-color: #F2F2F2;
     margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
 }
 
+.populaires h2 {
+    margin: 0px;
+}
+
+
+
 .populaires img {
-    width: 25%;
-    height: auto;
+    width: 120px;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     
 }
 
 .lesPlusPopulaires {
     display: flex;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    padding: 3px;
+    background-color: white;
+    height: 20%;
+    
 }
 
 
