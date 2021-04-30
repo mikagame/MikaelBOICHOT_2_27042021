@@ -259,6 +259,12 @@ h3,h4 {
     display: flex;
 }
 
+.popicone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .populaires {
     width: 30%;
     border: 1px solid #F2F2F2;
@@ -298,11 +304,40 @@ h3,h4 {
 
 /***Activites***/
 
-#activites img {
-    width: 25%;
-    height: auto;
-
+.seulactivitesAMarseille img {
+    
+    width: 70%;
+    height: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
+
+.doubleactivitesAMarseille img {
+    
+    width: 130%;
+    height: 120px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.groupeColonne {
+    display: flex;
+    flex-direction: column;
+}
+
+.groupeLigne {
+    display: flex;
+    width: 45%;
+   
+}
+
+.groupe {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 
 /***Footer***/
