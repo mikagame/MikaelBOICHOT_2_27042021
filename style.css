@@ -11,12 +11,14 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    margin: 0px;
-    
+    margin: 0px;  
+     
 }
 
 .contain {
     padding: 2em;
+    padding-top: 0em;
+    
 }
 
             /****** Style Header ******/
@@ -27,41 +29,39 @@ body {
 
 .headernav {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
+    align-items: center;
+   
 }
-
-
 
 .menu {
     display: flex;
     align-items: center;
+   
 }
 
-nav ul {
+nav {
     display: flex;
-
-
+    align-items: center;   
 }
 
 nav a {
-    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
     padding-right: 2em;
+    padding-left: 2em; 
     text-decoration: none;
     color: black;
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
 }
 
-nav li {
-    list-style: none;
-}
+
 
 nav a:hover {
     border-top: 2px solid #0065fc;
-   
-    color: #0065fc;
+    padding-top: 1.8em;
+    padding-bottom: 2em;
+    color: #0065fc; 
 }
 
 .signin {
