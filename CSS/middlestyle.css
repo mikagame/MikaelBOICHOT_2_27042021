@@ -152,3 +152,20 @@ h3,h4,p {
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width:730px) {
+
+
+
+
+.hebpop {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+
+
+
+
+}
