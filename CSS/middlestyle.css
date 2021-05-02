@@ -1,0 +1,154 @@
+#hebergements {
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    width: 70%;
+    margin-right: 15px;
+    padding: 1em;   
+}
+
+#hebergements h2 {
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.flexheb {
+    display: flex;
+    justify-content: space-around;   
+}
+
+#hebergements img {
+    width: 100%;
+    height: 105px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;  
+}
+
+#hebergements a {
+    text-decoration: none;
+}
+
+.vignettesHebergements {
+    border: 1px solid #F2F2F2;
+    background-color: white;
+    border-radius: 15px;
+    width: 33%;
+    padding: 0.2em;
+    margin: 1em;
+    height: auto;
+}
+
+.star {
+    display: flex;
+}
+
+.starBleu {
+    color: #0065fc;
+}
+
+.starGris {
+    color: #F2F2F2;
+}
+
+h3,h4,p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+   
+}
+
+.texteVignette {
+    display: flex;
+    flex-direction: column;   
+    padding-left: 12px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+
+.texteVignette h3 {
+    font-size: 17px;
+}
+
+.texteVignette h4 {
+    font-size: 14px;
+}
+
+
+
+.hebpop {
+    display: flex;
+}
+
+.popicone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.populaires {
+    width: 30%;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    margin-left: 15px;   
+    padding: 36px;
+}
+
+.flexpop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.populaires h2 {
+    margin: 0px;
+}
+
+.populaires img {
+    width: 120px;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;   
+}
+
+.lesPlusPopulaires {
+    display: flex;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    padding: 3px;
+    background-color: white;
+    height: 20%;
+    margin-top: 1em;   
+}
+
+/***Activites***/
+
+.seulactivitesAMarseille img {   
+    width: 70%;
+    height: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.doubleactivitesAMarseille img {   
+    width: 130%;
+    height: 120px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.groupeColonne {
+    display: flex;
+    flex-direction: column;
+}
+
+.groupeLigne {
+    display: flex;
+    width: 45%;  
+}
+
+.groupe {
+    display: flex;
+    justify-content: space-between;
+}

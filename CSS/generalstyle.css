@@ -1,0 +1,19 @@
+/***Charte graphique
+        icônes : Font Awesome
+        couleurs: bleu #0065FC, version plus claire #DEEBFF, gris #F2F2F2
+        police Raleway
+                                                                            ***/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;600&display=swap');
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;       
+}
+
+.contain {
+    padding: 2em;
+    padding-top: 0em;    
+}
