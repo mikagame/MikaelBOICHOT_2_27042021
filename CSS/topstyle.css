@@ -153,7 +153,6 @@ form i {
 
 .responsiveFiltre {
     display: flex;
-
 }
 
 .info {
@@ -191,42 +190,33 @@ form i {
         margin-bottom: 1em;
     }
 
-    .menuMobile {
-        border-bottom: 2px solid #F2F2F2;
-       
-        
-    }
-
     .menuMobile nav{
         display: flex;
         justify-content: space-between;
         
     }
 
-    a {
-        width: 50%;
-        text-align: center;
-    }
-
     .menuMobile a {
         padding: 0px;
-        padding-bottom: 10px;   
+        padding-bottom: 10px;  
+        width: 50%;
+        text-align: center;
+        border-bottom: 2px solid #F2F2F2; 
     }
 
     .menuMobile a:hover {
             border-top: none;
             padding-top: 0px;
-            padding-bottom: 8px;
+            padding-bottom: 10px;
+          
+            
             border-bottom: 2px solid #0065fc;
     }
 
     h1 {
-        font-size: 28px;
-        
+        font-size: 28px;       
     }
-    
-   
-   
+      
     .responsiveFiltre {
         display: flex;
     }
@@ -234,8 +224,7 @@ form i {
     .filtres {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        
+        align-items: flex-start;        
     }
 
     .filtres a {
@@ -248,8 +237,7 @@ form i {
     }
 
     .loupe {
-        display: block;
-        
+        display: block;       
     }
 
     .loupe i {
@@ -257,9 +245,5 @@ form i {
         padding: 11px;
         background-color: #0065fc;
         color: white;
-    }
-
-   
-    
-    
+    }    
 }
