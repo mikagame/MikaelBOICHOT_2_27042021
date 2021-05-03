@@ -9,6 +9,8 @@
     display: flex;
     justify-content: space-between; 
     align-items: center;   
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .menu {
@@ -174,43 +176,48 @@ form i {
 
 @media screen and (max-width:730px) {
 
-    
-
     .navBarre {
         display: none;
     }
 
     .navBarreMobile {
-        display: inline;
+        display: inline;              
     }
 
     .logsign {
         display: flex;
         justify-content: space-between;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+
+    .menuMobile {
+        border-bottom: 2px solid #F2F2F2;
+       
+        
     }
 
     .menuMobile nav{
         display: flex;
         justify-content: space-between;
-        border-bottom: 2px solid #F2F2F2;
-        padding-left: 1.5em;
-        padding-right: 2.5em;
-        padding-bottom: 10px;
+        
+    }
+
+    a {
+        width: 50%;
+        text-align: center;
     }
 
     .menuMobile a {
         padding: 0px;
-        padding-bottom: 5px;
-    
-        
-        
+        padding-bottom: 10px;   
     }
 
     .menuMobile a:hover {
             border-top: none;
             padding-top: 0px;
-            padding-bottom: 4px;
-            border-bottom: 1px solid #0065fc;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #0065fc;
     }
 
     h1 {
@@ -228,6 +235,12 @@ form i {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        
+    }
+
+    .filtres a {
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
     }
 
     .bouton {
