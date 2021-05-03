@@ -17,3 +17,10 @@ body {
     padding: 2em;
     padding-top: 0em;    
 }
+
+@media screen and (max-width:730px) {
+
+    .contain{
+        padding: 1em;
+    }
+}
