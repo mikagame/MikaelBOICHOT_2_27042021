@@ -1,6 +1,9 @@
 .logo img {
     height: 50px;
 }
+.navBarreMobile {
+    display: none;
+}
 
 .navBarre {
     display: flex;
@@ -67,32 +70,37 @@ form i {
     background-color: #F2F2F2;
     padding: 10px;
     padding-top: 11px;
-    padding-right: 12px;
-    padding-left: 12px;
+    padding-bottom: 11px;
+    padding-right: 18px;
+    padding-left: 18px;
     margin-right: -2px;
-    border: 2px solid #F2F2F2;
+    border: 1px solid #F2F2F2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
 .zoneRecherche {
     border: 1px solid #F2F2F2;   
-    padding-top: 11px;
+    padding-top: 10px;
     padding-left: 10px;
     padding-right: 30px;
     padding-bottom: 11px;
-    width: 150px;   
+    width: 220px;   
 }
 
 .bouton {
-    border: 2px solid #0065fc;
+    border: 1px solid #0065fc;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-left: -4px;
-    padding-top: 10px;
-    padding-bottom: 10px;   
+    padding-top: 11px;
+    padding-bottom: 11px;   
     color: white;
     background-color: #0065fc;
+}
+
+.loupe {
+    display: none;
 }
 
 
@@ -165,6 +173,30 @@ form i {
 }
 
 @media screen and (max-width:730px) {
+
+    .navBarre {
+        display: none;
+    }
+
+    .navBarreMobile {
+        display: inline;
+    }
+
+    .logsign {
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .menuMobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+   
     .responsiveFiltre {
         display: flex;
     }
@@ -174,6 +206,24 @@ form i {
         flex-direction: column;
         align-items: flex-start;
     }
+
+    .bouton {
+        display: none;
+    }
+
+    .loupe {
+        display: block;
+        
+    }
+
+    .loupe i {
+        border-radius: 15px;
+        padding: 11px;
+        background-color: #0065fc;
+        color: white;
+    }
+
+   
     
     
 }
