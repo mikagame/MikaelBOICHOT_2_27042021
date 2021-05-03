@@ -120,8 +120,13 @@ form i {
     border-radius: 25px;
     padding-right: 1em;   
     color: black;
-    font-weight: bold;
-    
+    font-weight: bold;    
+}
+
+.filtres a:hover {
+    background-color: #0065fc;
+    color: #DEEBFF;
+    transition: ease 0.5s;
 }
 
 .filtres i {    
@@ -134,6 +139,11 @@ form i {
     align-items: center;
     justify-content: center;
     color: #0065fc;   
+}
+
+.responsiveFiltre {
+    display: flex;
+
 }
 
 .info {
@@ -155,6 +165,9 @@ form i {
 }
 
 @media screen and (max-width:730px) {
+    .responsiveFiltre {
+        display: flex;
+    }
 
     .filtres {
         display: flex;
@@ -162,7 +175,5 @@ form i {
         align-items: flex-start;
     }
     
-    .mobLigneFiltre {
-        display: flex;
-    }
+    
 }
