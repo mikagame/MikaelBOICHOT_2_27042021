@@ -5,6 +5,7 @@
     width: 70%;
     margin-right: 15px;
     padding: 1em;   
+    
 }
 
 #hebergements h2 {
@@ -34,7 +35,7 @@
     background-color: white;
     border-radius: 15px;
     width: 33%;
-    padding: 0.2em;
+    padding: 0.3em;
     margin: 1em;
     height: auto;
 }
@@ -75,6 +76,13 @@ h3,h4,p {
 
 .texteVignette h4 {
     font-size: 14px;
+}
+
+span a {
+    margin-left: 16px;
+    font-size: 17px;
+    margin-top: 1em ;
+    margin-bottom: 1em ;
 }
 
 .hebpop {
@@ -229,7 +237,7 @@ h3,h4,p {
         padding-left: 0px;
         margin-top: 1.5em;
         margin-bottom: 10px;
-        font-weight:700;
+        font-weight:600;
     }
 
     .flexheb {
@@ -246,6 +254,16 @@ h3,h4,p {
     }
 
 /***ACTIVITES***/
+#activites {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#activites h2{
+    margin-top: 2em;
+    margin-left: 0px;
+    padding-left: 4px;
+}
 
 .groupeLigne, .groupe {
     flex-direction: column;
@@ -256,15 +274,30 @@ h3,h4,p {
     align-items: center;
 }
 
-.seulactivitesAMarseille, .doubleactivitesAMarseille,.seulactivitesAMarseille img, .doubleactivitesAMarseille img{
+.seulactivitesAMarseille, .doubleactivitesAMarseille{
     width: 335px;
+    height: 180px;
 }
+
+.seulactivitesAMarseille img, .doubleactivitesAMarseille img {
+    width: 335px;
+    height: 130px;
+}
+
+
+
 
 
 
 
 .groupeLigne, .groupeColonne {
     width: 100%;
+}
+
+
+span a {
+    
+    margin-left: 0px;
 }
 
 
