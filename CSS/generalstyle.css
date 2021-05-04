@@ -18,6 +18,6 @@ body {
 @media screen and (max-width:730px) {
 
     .contain{
-        padding: 1em;
+        padding: 0em;
     }
 }

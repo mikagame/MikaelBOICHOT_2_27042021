@@ -214,13 +214,22 @@ form i {
             border-bottom: 3px solid #0065fc;
     }
 
+    .titre {
+        margin-left: 1em;
+    }
+
     h1 {
-        font-size: 23px;       
+        font-size: 23px; 
+        margin-top: 1.5em;      
     }
 
     .titre p {
         font-size: 17px;
         padding-bottom: 1.5em;
+    }
+
+    form {
+        margin-left: 1em;
     }
 
     .loupe {
@@ -248,6 +257,7 @@ form i {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        margin-left: 1em;
        
     }
 
