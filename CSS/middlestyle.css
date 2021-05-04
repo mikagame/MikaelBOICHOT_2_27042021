@@ -40,14 +40,18 @@
 
 .star {
     display: flex;
+    font-size: 12px;
+
 }
 
 .starBleu {
     color: #0065fc;
+    font-size: 12px;
 }
 
 .starGris {
     color: #F2F2F2;
+    font-size: 12px;
 }
 
 h3,h4,p {
@@ -89,13 +93,12 @@ h3,h4,p {
     border-radius: 15px;
     background-color: #F2F2F2;
     margin-left: 15px;   
-    padding: 36px;
-}
-
-.flexpop {
+    padding-top: 36px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+   
+   
+    
 }
 
 .populaires h2 {
@@ -115,8 +118,21 @@ h3,h4,p {
     border-radius: 15px;
     padding: 3px;
     background-color: white;
-    height: 20%;
-    margin-top: 1em;   
+    height: 120px;
+    margin-top: 1em;
+    
+}
+
+.txtpop {
+    margin-left: 1em;
+}
+
+.txtpop h4 {
+    margin-bottom: 20px;
+}
+
+.txtpop i {
+    font-size: 12px;
 }
 
 /***Activites***/
@@ -196,6 +212,30 @@ h3,h4,p {
 
     .txtpop i {
         font-size: 12px;
+    }
+
+
+    #hebergements {
+        width: 100%;
+        border: none;
+        border-radius: none;
+        background-color: white;
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 0px;
+    }
+
+    .flexheb {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vignettesHebergements {
+        width: 335px;
+        height: 180px;
+        margin: 0px;
+
+       
     }
 
 

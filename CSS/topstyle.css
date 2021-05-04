@@ -188,6 +188,7 @@ form i {
         display: flex;
         justify-content: space-between;
         padding: 1em;
+        margin-top: 10px;
         margin-bottom: 1em;
     }
 
@@ -216,6 +217,7 @@ form i {
 
     .titre {
         margin-left: 1em;
+        margin-right: 1em;
     }
 
     h1 {
