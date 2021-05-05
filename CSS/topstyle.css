@@ -99,7 +99,7 @@ form i {
 }
 
 input:focus {
-    border: none;
+    outline: transparent;
 }
 
 .bouton {
