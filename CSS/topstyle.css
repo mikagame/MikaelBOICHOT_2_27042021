@@ -48,6 +48,7 @@ nav a:hover {
     padding-left: 2em;
     text-decoration: none;
     color: #0065fc;
+    font-weight: 600;
 }
 
 h1 {
@@ -159,9 +160,10 @@ form i {
 
 .info {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 15px;
     margin-bottom: 15px;
+    
 }
 
 .info i {
@@ -223,12 +225,14 @@ form i {
 
     h1 {
         font-size: 23px; 
-        margin-top: 1.5em;      
+        margin-top: 1.5em; 
+        font-weight: 600;     
     }
 
     .titre p {
         font-size: 17px;
         padding-bottom: 1.5em;
+        font-weight: 300;
     }
 
     form {
@@ -265,7 +269,8 @@ form i {
     }
 
     .filtresMobile p {
-        font-weight: bold;
+        font-size: 18px;
+        font-weight: 600;
         padding-top: 1.5em;
         padding-bottom: 0.7em;
     }
@@ -311,7 +316,6 @@ form i {
     .ecoFami a {
         margin-right: 1em;
     }
-   
 
-      
+  
 }

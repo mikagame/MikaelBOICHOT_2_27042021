@@ -15,6 +15,10 @@ body {
     padding-top: 0em;    
 }
 
+.img {
+    object-fit: cover;
+}
+
 @media screen and (max-width:730px) {
 
     .contain{

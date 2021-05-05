@@ -102,6 +102,8 @@ span a {
     background-color: #F2F2F2;
     margin-left: 15px;   
     padding-top: 36px;
+    padding-right: 2em ;
+    padding-left: 2em;
     display: flex;
     flex-direction: column;    
 }
@@ -246,7 +248,7 @@ span a {
     }
 
     .vignettesHebergements {
-        width: 335px;
+        width:335px;
         height: 180px;
         margin: 0px;
         margin-top: 5px;
