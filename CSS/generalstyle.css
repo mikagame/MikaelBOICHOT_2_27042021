@@ -15,7 +15,7 @@ body {
     padding-top: 0em;    
 }
 
-.img {
+img {
     object-fit: cover;
 }
 
