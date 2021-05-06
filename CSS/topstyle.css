@@ -99,7 +99,8 @@ form i {
 }
 
 input:focus {
-    outline: transparent;
+    outline:#0065fc;
+
 }
 
 .bouton {
@@ -242,7 +243,7 @@ input:focus {
     h1 {
         font-size: 23px; 
         margin-top: 1.5em; 
-        font-weight: 600;     
+        font-weight: 700;     
     }
 
     .titre p {
@@ -253,6 +254,7 @@ input:focus {
 
     form {
         margin-left: 1em;
+        margin-right: 1em;
     }
 
     .loupe {
@@ -261,9 +263,12 @@ input:focus {
 
     .loupe i {
         border-radius: 15px;
-        padding: 11px;
+        padding: 18px;
         background-color: #0065fc;
         color: white;
+        z-index: 1;
+        position: relative;
+        right: 20px;
     }  
       
     .bouton {

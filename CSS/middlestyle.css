@@ -110,7 +110,8 @@ span a {
     padding-right: 2em ;
     padding-left: 2em;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;  
+  
 }
 
 .populaires h2 {
@@ -123,6 +124,12 @@ span a {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;   
+}
+
+.flexpop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .lesPlusPopulaires {
@@ -154,30 +161,66 @@ span a {
 
 /***Activites***/
 
+#activites h3 {
+    margin:0.5em;
+    padding-left: 0.5em;
+    font-size: 13px;
+    
+}
+
+.seulactivitesAMarseille {
+    border: 1px solid #F2F2F2;
+    box-shadow: 2px 7px 8px #F2F2F2;
+    background-color: white;
+    border-radius: 15px;
+    width: 47%;
+    
+}
+
+.doubleactivitesAMarseille {
+    border: 1px solid #F2F2F2;
+    box-shadow: 2px 7px 8px #F2F2F2;
+    background-color: white;
+    border-radius: 15px;  
+}
+
 .seulactivitesAMarseille img {   
-    width: 70%;
-    height: 300px;
+    width: 100%;
+    height: 240px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 .doubleactivitesAMarseille img {   
-    width: 130%;
-    height: 120px;
+    width: 100%;    
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
+.petite img {
+    height: 70px;    
+}
+.grandeHaut img, .grandeBas img{
+    height: 120px;  
+}
+
+.grandeHaut {
+    margin-bottom: 20px;
+}
+
 .groupeColonne {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 47%;
 }
 
 .groupeLigne {
     display: flex;
-    width: 45%;  
+    justify-content: space-between;
+    width: 48.5%;  
 }
 
 .groupe {
@@ -276,20 +319,22 @@ span a {
     margin-top: 2em;
     margin-left: 0px;
     padding-left: 4px;
+    margin-bottom: 1em;
+}
+
+#activites h3 {
+    margin-top: 1em;
 }
 
 .groupeLigne, .groupe {
     flex-direction: column;
-    align-items: center;
-}
-
-.groupeColonne {
-    align-items: center;
+    
 }
 
 .seulactivitesAMarseille, .doubleactivitesAMarseille{
     width: 335px;
     height: 180px;
+    margin-bottom: 20px;
 }
 
 .seulactivitesAMarseille img, .doubleactivitesAMarseille img {
@@ -304,5 +349,8 @@ span a {
 span a {   
     margin-left: 0px;
 }
+
+
+
 
 }
