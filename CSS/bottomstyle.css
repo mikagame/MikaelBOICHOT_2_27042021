@@ -36,7 +36,7 @@ footer ul {
     padding-left: 0px;
 }
 
-@media screen and (max-width:730px) {
+@media screen and (max-width:767px) {
 
     .flexfoot {
         display: flex;
@@ -45,4 +45,8 @@ footer ul {
     footer {
         margin-top: 2em;
     }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 959px) {
+    
 }

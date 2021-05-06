@@ -15,9 +15,17 @@ body {
     padding-top: 0em;    
 }
 
-@media screen and (max-width:730px) {
+@media screen and (max-width:767px) {
 
     .contain{
         padding: 0em;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 959px) {
+
+    .contain {
+        padding: 0px;
+        margin: 0px;
     }
 }

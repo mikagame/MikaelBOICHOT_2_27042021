@@ -154,7 +154,7 @@ input:focus {
 .filtres a:hover {
     background-color: #0065fc;
     color: #DEEBFF;
-    transition: ease 0.5s;
+    transition: ease 0.2s;
 }
 
 .filtres i {    
@@ -195,7 +195,7 @@ input:focus {
     margin-right: 12px; 
 }
 
-@media screen and (max-width:730px) {
+@media screen and (max-width:767px) {
 
     .navBarre {
         display: none;
@@ -348,4 +348,28 @@ input:focus {
     }
    
   
+}
+
+@media only screen and (min-width : 768px) and (max-width : 959px) {
+    
+    .titre {
+        padding-left: 2em;
+    }
+
+    form {
+        margin-left: 2em;
+    }
+
+    .filtres {
+        width: 92%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2em;
+       margin-right: 2em;
+    }
+
+    .info {
+        margin-left: 2em;
+    }
+
 }

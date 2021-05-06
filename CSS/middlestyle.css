@@ -48,7 +48,7 @@
 
 .vignettesHebergements:hover {
     transform: scale(1.05);
-    transition: ease 0.5s;
+    transition: ease 0.2s;
 }
 
 .star {
@@ -264,7 +264,7 @@ span a {
     justify-content: space-between;
 }
 
-@media screen and (max-width:730px) {
+@media screen and (max-width:767px) {
 
 /***POPULAIRES***/
 
@@ -392,6 +392,33 @@ span a {
 span a {   
     margin-left: 0px;
 }
+
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 959px) {
+
+.hebpop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#hebergements {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.populaires {
+    width: 100%;
+    margin:0px;
+}
+
 
 
 
