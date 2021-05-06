@@ -2,13 +2,15 @@
     border: 1px solid #F2F2F2;
     border-radius: 15px;
     background-color: #F2F2F2;
-    width: 70%;
+    width: 66%;
     margin-right: 15px;
-    padding: 1em;       
+    padding: 1em;  
+    padding-bottom: 3em;     
 }
 
 #hebergements h2 {
-    margin-bottom: 0px;
+    font-size: 20px;
+    margin-bottom: 5px;
     padding-left: 20px;
 }
 
@@ -66,42 +68,48 @@ h3,h4,p {
     padding-bottom: 5px;   
 }
 
+
 .texteVignette {
     display: flex;
     flex-direction: column;   
     padding-left: 12px; 
-    padding-top: 5px;
-    padding-bottom: 5px;
-    justify-content: space-between;
+    
+    justify-content: space-around;
 }
 
 .texteVignette h3 {
-    font-size: 17px;
+    font-size: 15px;
 }
 
-.texteVignette h4 {
-    font-size: 14px;
+.texteVignette p {
+    font-size: 13px;
 }
 
 span a {
     margin-left: 16px;
     font-size: 17px;
-    margin-top: 1em ;
-    margin-bottom: 1em ;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    top: 15px;
+    left: 5px;
 }
 
 .hebpop {
     display: flex;
 }
 
+/****POPULAIRES***/
+
 .popicone {
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .populaires {
-    width: 30%;
+    width: 31%;
     border: 1px solid #F2F2F2;
     border-radius: 15px;
     background-color: #F2F2F2;
@@ -116,6 +124,8 @@ span a {
 
 .populaires h2 {
     margin: 0px;
+    margin-bottom: 5px;
+    font-size: 20px;
 }
 
 .populaires img {
@@ -139,7 +149,8 @@ span a {
     padding: 3px;
     background-color: white;
     height: 120px;
-    margin-top: 1em;   
+    margin-top: 1em;  
+    margin-bottom: 0.8em; 
 }
 
 .lesPlusPopulaires:hover {
@@ -149,10 +160,18 @@ span a {
 
 .txtpop {
     margin-left: 1em;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-around;
 }
 
-.txtpop h4 {
-    margin-bottom: 20px;
+.txtpop h3 {
+    font-size: 15px;
+}
+
+.txtpop p {
+   font-size: 13px;
+   
 }
 
 .txtpop i {
@@ -161,10 +180,14 @@ span a {
 
 /***Activites***/
 
+#activites h2 {
+    margin-top: 2em;
+}
+
 #activites h3 {
     margin-top: 0.7em;
     margin-bottom:0.7em;
-    padding-left: 0.5em;
+    padding-left: 1em;
     font-size: 15px;
     
 }
@@ -201,7 +224,7 @@ span a {
 }
 
 .petite img {
-    height: 120px;    
+    height: 130px;    
 }
 .grandeHaut img, .grandeBas img{
     height: 180px;  

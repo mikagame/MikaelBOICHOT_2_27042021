@@ -104,14 +104,14 @@ input:focus {
 }
 
 .bouton {
-    font-size: 16px;
-    font-weight: 800;
+    font-size: 18px;
+    font-weight: 500;
     border: 1px solid #0065fc;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-left: -4px;
-    padding-top: 18px;
-    padding-bottom: 18px; 
+    padding-top: 16px;
+    padding-bottom: 16px; 
     padding-left: 20px;
     padding-right: 20px;  
     color: white;
@@ -134,7 +134,9 @@ input:focus {
 }
 
 .filtres p {
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 600;
+
 }
 
 .filtres a {
@@ -145,7 +147,8 @@ input:focus {
     border-radius: 25px;
     padding-right: 1em;   
     color: black;
-    font-weight: bold;    
+    font-size: 16px;
+    font-weight: 600;    
 }
 
 .filtres a:hover {
@@ -171,14 +174,11 @@ input:focus {
     display: none;
 }
 
-
-
 .info {
     display: flex;
     align-items: baseline;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
+    margin-top: 30px;
+    margin-bottom: 30px;   
 }
 
 .info i {
