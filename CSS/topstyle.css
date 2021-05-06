@@ -338,5 +338,12 @@ input:focus {
         margin-right: 1em;
     }
 
+    .info {
+        margin-left: 1em;
+    }
+
+    .info i {
+        width: 25px;
+    }
   
 }
