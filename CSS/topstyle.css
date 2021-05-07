@@ -138,15 +138,16 @@ input:focus {
 .filtres {
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     list-style: none;
-    width: 70%;
+    
 }
 
 .filtres p {
     font-size: 16px;
     font-weight: 600;
+    margin-right: 2%;
 
 }
 
@@ -159,7 +160,8 @@ input:focus {
     padding-right: 1em;   
     color: black;
     font-size: 16px;
-    font-weight: 600;    
+    font-weight: 600;   
+    margin-right: 2%; 
 }
 
 .filtres a:hover {
