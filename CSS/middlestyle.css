@@ -5,7 +5,10 @@
     width: 66%;
     margin-right: 15px;
     padding: 1em;  
-    padding-bottom: 3em;     
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 
 #hebergements h2 {
@@ -43,6 +46,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .vignettesHebergements:hover {
@@ -53,6 +57,12 @@
 .vignettesHebergements a {
     text-decoration: none;
     color: black;
+}
+
+.imTitreHeb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .star {
@@ -148,9 +158,7 @@ span a {
     justify-content: space-around;
 }
 
-.lesPlusPopulaires {
-    margin-bottom: 1em;
-}
+
 
 .lesPlusPopulaires a {
     display: flex;
@@ -297,7 +305,8 @@ span a {
     .lesPlusPopulaires {
         margin-left: 1em;
         margin-right: 1em;
-        height: 130px;
+        height: 130px;      
+        margin-bottom: 1em;
     }
 
     .hebpop {

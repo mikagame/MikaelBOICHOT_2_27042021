@@ -271,8 +271,8 @@ input:focus {
 
     button {
         border: none;
-     background-color: #0065fc;
-     z-index: 1;
+        background-color: #0065fc;
+        z-index: 1;
         position: relative;
         right: 20px;
         border-radius: 15px;
