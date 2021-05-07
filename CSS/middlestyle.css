@@ -154,6 +154,10 @@ span a {
     justify-content: space-around;
 }
 
+.lesPlusPopulaires {
+    margin-bottom: 1em;
+}
+
 .lesPlusPopulaires a {
     display: flex;
     border: 1px solid #F2F2F2;
