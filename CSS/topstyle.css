@@ -83,8 +83,12 @@ form {
     border-bottom-left-radius: 15px;
 }
 
+input .zoneRecherche {
+    border: none;
+}
+
 .zoneRecherche {
-    outline-style: none;
+    
     border: 1px solid #F2F2F2;   
     padding-top: 18px;
     padding-left: 10px;
@@ -266,6 +270,7 @@ input:focus {
     }
 
     button {
+        border: none;
      background-color: #0065fc;
      z-index: 1;
         position: relative;
