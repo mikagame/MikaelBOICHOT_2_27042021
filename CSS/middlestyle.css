@@ -43,7 +43,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .vignettesHebergements:hover {
@@ -62,8 +61,6 @@
     padding-left: 12px;
 }
 
-
-
 .starBleu {
     color: #0065fc;
     font-size: 12px;
@@ -80,12 +77,10 @@ h3,h4,p {
     padding-bottom: 5px;   
 }
 
-
 .texteVignette {
     display: flex;
     flex-direction: column;   
-    padding-left: 12px;   
-    
+    padding-left: 12px;       
 }
 
 .texteVignette h3 {
@@ -130,8 +125,7 @@ span a {
     padding-right: 2em ;
     padding-left: 2em;
     display: flex;
-    flex-direction: column;  
-  
+    flex-direction: column;    
 }
 
 .populaires h2 {
@@ -193,8 +187,7 @@ span a {
 }
 
 .txtpop p {
-   font-size: 13px;
-   
+   font-size: 13px;   
 }
 
 .txtpop i {
@@ -206,7 +199,6 @@ span a {
 .cardS:hover, .cardL:hover, .cardM:hover {
     transform: scale(1.05);
     transition: ease 0.2s;
-
 }
 
 #activites h2 {
@@ -217,8 +209,7 @@ span a {
     margin-top: 0.7em;
     margin-bottom:0.7em;
     padding-left: 1em;
-    font-size: 15px;
-    
+    font-size: 15px;    
 }
 
 .cardL {
@@ -226,8 +217,7 @@ span a {
     box-shadow: 2px 7px 8px #F2F2F2;
     background-color: white;
     border-radius: 15px;
-    width: 47%;
-    
+    width: 47%;    
 }
 
 .groupeLigne a {
@@ -265,6 +255,7 @@ span a {
 .petite img {
     height: 130px;    
 }
+
 .grandeHaut img, .grandeBas img{
     height: 180px;  
 }
