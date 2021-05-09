@@ -1,7 +1,3 @@
-.titreTablette {
-    display: none;
-}
-
 #hebergements {
     border: 1px solid #F2F2F2;
     border-radius: 15px;
@@ -10,13 +6,11 @@
     margin-right: 15px;
     padding: 1em;  
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;        
 }
 
 #hebergements h2 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 5px;
     padding-left: 20px;
 }
@@ -49,12 +43,11 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 .vignettesHebergements:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: ease 0.2s;
 }
 
@@ -98,12 +91,12 @@ h3,h4,p {
 }
 
 .texteVignette h3 {
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 5px;
 }
 
 .texteVignette p {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 span a {
@@ -114,6 +107,10 @@ span a {
     position: relative;
     top: 15px;
     left: 5px;
+}
+
+span a:hover {
+    color:#0065fc
 }
 
 .hebpop {
@@ -145,7 +142,7 @@ span a {
 .populaires h2 {
     margin: 0px;
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .populaires img {
@@ -161,8 +158,6 @@ span a {
     flex-direction: column;
     justify-content: space-around;
 }
-
-
 
 .lesPlusPopulaires a {
     display: flex;
@@ -183,8 +178,8 @@ span a {
 }
 
 .lesPlusPopulaires:hover {
-    transform: scale(1.05);
-    transition: ease 0.5s;
+    transform: scale(1.02);
+    transition: ease 0.2s;
 }
 
 .txtpop {
@@ -209,11 +204,12 @@ span a {
 /***Activites***/
 
 .cardS:hover, .cardL:hover, .cardM:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: ease 0.2s;
 }
 
 #activites h2 {
+    font-size: 18px;
     margin-top: 2em;
 }
 
@@ -265,7 +261,7 @@ span a {
 }
 
 .petite img {
-    height: 130px;    
+    height: 140px;    
 }
 
 .grandeHaut img, .grandeBas img{
@@ -306,24 +302,27 @@ span a {
         width: 100%;
         margin: 0px;
         padding: 0px;
+        padding-bottom: 1.5em;
     }
 
     .lesPlusPopulaires {
         margin-left: 1em;
         margin-right: 1em;
         height: 130px;      
-        margin-bottom: 1em;
+        margin-bottom: 0.5em;
     }
 
     .hebpop {
         display: flex;
         flex-direction: column-reverse;
+        width: 100%;
     }
 
     .popicone {
         margin-top: 1.5em;
         margin-left: 1em;
         margin-right: 1em;
+        
     }
 
     .flexpop {
@@ -349,7 +348,7 @@ span a {
 /***HEBERGEMENTS***/
 
     #hebergements {
-        width: 90%;
+        width: 91%;
         border: none;
         border-radius: none;
         background-color: white;
@@ -379,16 +378,18 @@ span a {
         display: flex;
         flex-direction: column;
         justify-content: space-around;  
+        cursor:pointer
     }
 
 /***ACTIVITES***/
 #activites {
     margin-left: 1em;
     margin-right: 1em;
+    
 }
 
 #activites h2{
-    margin-top: 2em;
+    margin-top: 2.5em;
     margin-left: 0px;
     padding-left: 4px;
     margin-bottom: 1em;
@@ -434,12 +435,29 @@ span a {
 
 }
 
-@media only screen and (min-width : 768px) and (max-width : 959px) {
+@media only screen and (min-width : 768px) and (max-width : 1065px) {
+
+    .hebpop {  
+        margin: 2em;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
     .flexheb {
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin-bottom: 1em;
+    }
+
+    span a {
+        margin-left: 16px;
+        font-size: 17px;
+        font-weight: 600;
+        color: black;
+        position: relative;
+        top: 0px;
+        left: 5px;
     }
 
     .groupeHeb {
@@ -447,24 +465,20 @@ span a {
     }
 
     .vignettesHebergements{
-        width: 100%;
+        width: 90%;
     }
 
     .lesPlusPopulaires  {
         width: 100%;
         flex-direction: column;
-        
-       
+              
     }
-    .lesPlusPopulaires a {
-        
-        flex-direction: column;
-        
+    .lesPlusPopulaires a {      
+        flex-direction: column;       
         height: 180px;
         margin-bottom: 0px;
+        margin-top: 25px;
     }
-    
-    
     
     .lesPlusPopulaires img {
         width: 100%;
@@ -473,6 +487,13 @@ span a {
         border-bottom-left-radius: 0px;
     }
 
+    .populaires {
+        padding-top: 32px;
+    }
+
+    .txtpop {
+        margin-top: 5px;
+    }
 
    /* .titreTablette {
         display: flex;    
@@ -601,35 +622,4 @@ span a {
 */
 }
 
-@media only screen and (min-width : 959px) and (max-width : 1160px) {
 
-    
-
-    .texteVignette h3 {
-        font-size: 13px;
-    }
-    
-    .texteVignette p {
-        font-size: 11px;
-    }
-
-    
-
-    #hebergements {
-        width: 70%;
-    }
-
-    .lesPlusPopulaires h3 {
-        font-size: 13px;
-    }
-
-    .lesPlusPopulaires p {
-        font-size: 11px;
-
-      
-    }
-    .lesPlusPopulaires{
-    padding-right: 20px;
-    padding-left: 20px;
-}
-}
