@@ -286,18 +286,13 @@ input:focus {
         cursor: pointer;
     }
 
-
-
     .loupe {
         display: block;       
     }
-
-    
+   
     .bouton {
         display: none;
     }
-
-   
 
     .filtres {
         display: none;               
@@ -373,24 +368,16 @@ input:focus {
 
 @media only screen and (min-width : 768px) and (max-width : 1060px) {
     
-    .titre {
-        padding-left: 2em;
-    }
-
-    form {
-        margin-left: 2em;
-    }
-
     .filtres {
         width: 92%;
         display: flex;
         justify-content: space-between;
-        padding-left: 2em;
+        
        margin-right: 2em;
     }
 
-    .info {
-        margin-left: 2em;
-    }
+    
+
+    
 
 }
