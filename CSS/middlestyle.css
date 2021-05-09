@@ -1,3 +1,7 @@
+.titreTablette {
+    display: none;
+}
+
 #hebergements {
     border: 1px solid #F2F2F2;
     border-radius: 15px;
@@ -292,6 +296,8 @@ span a {
 
 @media screen and (max-width:767px) {
 
+    
+
 /***POPULAIRES***/
 
     .populaires {
@@ -430,6 +436,48 @@ span a {
 
 @media only screen and (min-width : 768px) and (max-width : 959px) {
 
+
+    .titreTablette {
+        display: flex;    
+        margin-left: 2em;
+        margin-right: 2em;
+        align-items: center;
+        font-size: 15px;
+        position: relative;
+        top: 10px;
+        font-size: 15px;
+    }
+    .titreTablette h2 {
+        font-size: 18px;
+    }
+
+    .titreTablettePop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;                             
+        width: 40%;
+        border: 1px solid #F2F2F2;       
+        background-color: #F2F2F2;    
+        padding: 16px;
+        padding-right: 17px;
+        margin-left: 15px;
+        padding-top: 0px;    
+        padding-bottom: 0px;   
+    }
+
+    .titreTabletteHeb { 
+        border: 1px solid #F2F2F2;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background-color: #F2F2F2;
+        width: 100%;
+        margin-right: 15px;
+        padding: 16px;  
+        padding-bottom: 0px;   
+    }
+
 .flexheb {
     flex-direction: column;
     
@@ -445,6 +493,9 @@ span a {
     justify-content: space-between;
     padding-top: 6px;
     padding-bottom: 6px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    
 }
 
 #hebergements h2,span{
@@ -456,8 +507,6 @@ span a {
 }
 .vignettesHebergements {
     width: 90%;
-    
-
 }
 
 .hebpop {
@@ -478,8 +527,10 @@ span a {
 .populaires {
     width: 40%;
     padding: 1em;
-    padding-top: 0px;
-    
+    padding-top: 0px;    
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
 }
 
 .lesPlusPopulaires  {
@@ -514,6 +565,8 @@ span a {
 }
 
 @media only screen and (min-width : 959px) and (max-width : 1160px) {
+
+    
 
     .texteVignette h3 {
         font-size: 13px;
