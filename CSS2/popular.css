@@ -18,7 +18,7 @@
 
 .popicone {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     margin-top: 10px;
     margin-left: 30px;
