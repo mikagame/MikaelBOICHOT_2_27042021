@@ -1,3 +1,5 @@
+/*** File .css model card ***/
+
 .card {
     border: 1px solid #F2F2F2;
     border-radius: 15px;
@@ -12,14 +14,15 @@
 
 .card h3 {
     font-size: 15px;
-    margin: 0px;
-    
+    margin: 0px;  
 }
 
 .card p {
     font-size: 13px;
     margin: 0px;
 }
+
+/*** card Hebergements & Popular ***/
 
 .hebpop .card {
     padding: 3px;
@@ -36,9 +39,7 @@
 
 .textCardHeb p {
     margin-bottom: 5px;
-
 }
-
 
 .popular .card {
     display: flex;

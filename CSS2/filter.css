@@ -1,3 +1,5 @@
+/*** File .css filter ***/
+
 .filters {
     
     margin-left: 60px;
@@ -15,11 +17,9 @@
     font-size: 18px;
     font-weight: 600;
     margin-right: 30px;
-
 }
 
 .filters a {
-
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -50,4 +50,20 @@
     color: #0065fc;   
     transform: scale(1.1);
     flex-shrink: 0;
+}
+
+@media screen and (max-width:767px) {
+ 
+    .filters {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .romAni {
+        display: flex;
+        flex-direction: column;
+    }
 }
