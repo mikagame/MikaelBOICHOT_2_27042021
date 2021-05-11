@@ -1,0 +1,32 @@
+img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#hebergements img {
+    height: 115px;
+}
+
+.popular img {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    width: 40%;
+    height: 135px;
+}
+
+.cardL img {
+    height: 390px;
+
+}
+
+.cardM img {
+    height: 180px;
+    
+}
+
+.cardS img {
+    height: 120px;
+}
+

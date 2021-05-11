@@ -1,0 +1,53 @@
+.filters {
+    
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.ecoFami, .romAni {
+    display: flex;
+}
+
+.filters p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 30px;
+
+}
+
+.filters a {
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 3px solid #F2F2F2;
+    border-radius: 25px;
+    padding-right: 22px;   
+    color: black;
+    font-size: 18px;
+    font-weight: 600;   
+    margin-right: 30px; 
+}
+
+.filters a:hover {
+    background-color: #0065fc;
+    color: #DEEBFF;
+    transition: ease 0.2s;
+}
+
+.filters i {    
+    margin-right: 0.8em;
+    background-color: #DEEBFF;   
+    border-radius: 50%;
+    height: 41px;
+    width: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065fc;   
+    transform: scale(1.1);
+    flex-shrink: 0;
+}

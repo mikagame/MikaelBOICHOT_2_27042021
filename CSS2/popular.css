@@ -1,0 +1,46 @@
+.popular {
+    width: 30%;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.popular a {
+    margin: 10px;
+}
+
+.popular h2 {
+    font-size: 22px;
+    margin-bottom: 0px;
+    
+}
+
+.popicone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.flexPop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width:767px) {
+    .popular {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 20px;
+        border-radius: 0px;
+    }
+
+}

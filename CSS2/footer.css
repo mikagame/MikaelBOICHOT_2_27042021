@@ -1,0 +1,50 @@
+.flexfoot {
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 69%;
+    display: flex;
+    justify-content: space-between;   
+}
+
+footer {
+    background-color: #F2F2F2;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-left: 20px;
+}
+
+footer p {
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;   
+}
+
+footer a:hover {
+    color: #0065FC;
+}
+
+
+footer li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.apropos {
+    display: flex;
+    flex-direction: column;
+}
+
+.assistance {
+    position: relative;
+    left: 30px;
+}
+
+footer ul {
+    padding-left: 0px;
+}
