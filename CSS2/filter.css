@@ -62,8 +62,28 @@
         justify-content: space-between;
     }
 
+    .filters a {
+        font-size: 16px;
+    }
+
     .romAni {
         display: flex;
         flex-direction: column;
+        align-items: baseline;
     }
+
+    .romAni a {
+        margin-bottom: 15px;
+    }
+
+    .ecoFami {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .ecoFami a {
+        margin-right: 10px;
+    }
+
+
 }

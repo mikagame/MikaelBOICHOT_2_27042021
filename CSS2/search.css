@@ -73,4 +73,8 @@ input:focus {
     .buttonSearch {
         display: none;
     }
+
+    button {
+        display: flex;
+    }
 }
