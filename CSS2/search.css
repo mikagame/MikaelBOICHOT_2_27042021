@@ -25,10 +25,15 @@ form {
     padding-bottom: 16px;
     border: 1px solid #F2F2F2;
     font-size: 18px;
+    -webkit-appearance: none;
+    border-radius: 0;
+
 }
 
 .zoneSearch:focus {
     border-color: #0065FC;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .zoneSearch:focus::placeholder {
