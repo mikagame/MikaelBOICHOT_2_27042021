@@ -57,8 +57,13 @@
     #activity  {
         margin-left: 20px;
         margin-right: 0px;
-
+        margin-bottom: 45px;
     }
+
+    #activity h2 {
+        margin-bottom: 30px;
+    }
+
     
     .bigRowActivity, .rowActivity1, .rowActivity2  {
         flex-direction: column;
