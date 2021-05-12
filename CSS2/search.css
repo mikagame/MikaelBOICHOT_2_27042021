@@ -87,12 +87,11 @@ input {
         display: none;
     }
 
-
     .zoneSearch {
         width: 260px;
+
     }
    
-
     .loupe {
         display: flex;
     }
@@ -104,9 +103,9 @@ input {
         position: relative;
         right: 30px;
         border-radius: 15px;
-        padding: 20px;
+        padding: 22px;
         color: white;
-        -webkit-appearance: none;
+        
     }
 
     button:hover {
