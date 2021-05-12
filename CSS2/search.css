@@ -63,7 +63,9 @@ input:focus {
     outline: #0065FC;
 }
 
-
+input {
+    -webkit-appearance: none;
+}
 
 .loupe {
     display: none;
