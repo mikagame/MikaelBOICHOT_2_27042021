@@ -31,11 +31,15 @@ form {
     border-color: #0065FC;
 }
 
+.zoneSearch:focus::placeholder {
+    opacity: 50%;
+}
+
 .zoneSearch::placeholder {
     position: relative;
     left: 20px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: black;
     opacity: 100%;    
 }
@@ -59,6 +63,8 @@ input:focus {
     outline: #0065FC;
 }
 
+
+
 .loupe {
     display: none;
 }
@@ -74,7 +80,31 @@ input:focus {
         display: none;
     }
 
-    button {
+
+    .zoneSearch {
+        width: 260px;
+    }
+   
+
+    .loupe {
         display: flex;
     }
+
+    button {
+        border: none;
+        background-color: #0065fc;
+        z-index: 1;
+        position: relative;
+        right: 30px;
+        border-radius: 15px;
+        padding: 20px;
+        color: white;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+
+
 }
