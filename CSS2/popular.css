@@ -14,8 +14,7 @@
 
 .popular h2 {
     font-size: 22px;
-    margin-bottom: 0px;
-    
+    margin-bottom: 0px;   
 }
 
 .popicone {
@@ -25,7 +24,11 @@
     margin-top: 10px;
     margin-left: 30px;
     margin-right: 30px;
-    
+}
+
+.popicone {
+    font-weight: 800;
+    font-size: 22px;
 }
 
 .flexPop {
@@ -38,11 +41,28 @@
 }
 
 @media screen and (max-width:767px) {
+
     .popular {
         width: 100%;
         margin-left: 0px;
         margin-right: 20px;
         border-radius: 0px;
+        padding-bottom: 40px;
+    }
+
+    .popicone {
+        margin-left: 10px;
+        margin-right: 10px;  
+        margin-bottom: 20px;
+    }
+
+    .flexPop {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .popular a {
+        margin-bottom: 0px;
     }
 
 }

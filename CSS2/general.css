@@ -24,7 +24,8 @@ header {
 }
 
 h1 {
-    font-size: 22px;   
+    font-size: 22px;  
+    font-weight: 600; 
 }
 
 .title p {
@@ -54,6 +55,7 @@ h1 {
     justify-content: center;  
     align-items: center;
     margin-right: 12px; 
+    flex-shrink: 0;
 }
 
 /*** Mobile ***/ 
@@ -68,11 +70,28 @@ h1 {
     }
     
     .title {
-        margin-left: 20px;
+        margin-left: 17px;
         margin-right: 20px;
         position: relative;
         bottom: 0px;
     }
+
+
+    .title p {
+        position: relative;
+        bottom: 15px;
+        font-size: 16px;
+    }
+
+    .info {
+        display: flex;
+        align-items: baseline;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;   
+    }
+
+    
 
 
 }

@@ -49,3 +49,21 @@ footer li {
 footer ul {
     padding-left: 0px;
 }
+
+/*** Mobile ***/
+
+@media screen and (max-width:767px) {
+
+    .flexfoot {
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;      
+    }
+
+    .assistance {
+        position: relative;
+        left: 0px;
+    }
+
+
+}

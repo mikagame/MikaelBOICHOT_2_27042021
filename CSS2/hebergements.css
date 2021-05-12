@@ -45,12 +45,30 @@ span a:hover {
 
     #hebergements {
         width: 100%;
-        background-color: white;
-        
+        background-color: white;     
+        margin-bottom: 8px;  
+    }
+
+    #hebergements h2 {        
+        margin-left: 10px;        
+    }
+
+    #hebergements a {
+        margin-bottom: 6px;
     }
 
     .gridHeb {
         grid-template-columns: 1fr;
+        margin-left: 0px;
+        margin-right: 0px;
     }
+
+    span a {
+        position: relative;
+        left: 0px;    
+    }
+
+
+    
     
 }

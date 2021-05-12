@@ -52,6 +52,13 @@
 /*** Mobile ***/
 
 @media screen and (max-width:767px) {
+
+
+    #activity  {
+        margin-left: 20px;
+        margin-right: 0px;
+
+    }
     
     .bigRowActivity, .rowActivity1, .rowActivity2  {
         flex-direction: column;
@@ -63,6 +70,10 @@
 
     .columnActivity, .rowActivity2 {
         margin-left: 0px;
+    }
+
+    .rowActivity2 {
+        margin-right: 20px;
     }
 
     .rowActivity1, .cardL {

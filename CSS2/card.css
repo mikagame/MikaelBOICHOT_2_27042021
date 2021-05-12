@@ -73,3 +73,18 @@
 .greyStar {
     color: #F2F2F2;
 }
+
+/*** Mobile ***/ 
+
+@media screen and (max-width:767px) {
+
+    .popular .card {
+        margin-bottom: 0px;
+    }
+
+    #activity .card {
+        margin-bottom: 15px;
+    }
+
+
+}
