@@ -103,9 +103,9 @@ input {
         position: relative;
         right: 30px;
         border-radius: 15px;
-        padding: 22px;
+        padding: 18px;
         color: white;
-        
+        font-size: 18px;
     }
 
     button:hover {
