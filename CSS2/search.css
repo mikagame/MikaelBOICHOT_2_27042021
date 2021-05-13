@@ -90,6 +90,7 @@ input {
     .zoneSearch {
         width: 70%;
         max-width: 260px;
+        padding-left: 5%;
     }
    
     .loupe {

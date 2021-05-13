@@ -11,7 +11,7 @@
 }
 
 #activity h3 {
-    font-size: 16px;
+    font-size: 15px;
     margin: 15px;
 }
 
@@ -48,6 +48,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+
 
 /*** Mobile ***/
 
@@ -86,5 +88,17 @@
     }
 
     
+
+}
+
+/*** Tablette ***/
+
+@media only screen and (min-width : 768px) and (max-width : 1130px) {
+
+.bigRowActivity {
+    display: flex;
+    flex-direction: column;
+}
+
 
 }
