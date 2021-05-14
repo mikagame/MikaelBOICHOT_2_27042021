@@ -100,5 +100,20 @@
     flex-direction: column;
 }
 
+#activity {
+    margin-right: 20px;
+}
+
+
+.rowActivity1 {
+    margin-bottom: 20px;
+
+}
+
+.rowActivity2 {
+    margin-left: 0px;
+    margin-right: 20px;
+
+}
 
 }
