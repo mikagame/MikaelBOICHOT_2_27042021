@@ -67,3 +67,11 @@ footer ul {
 
 
 }
+
+@media only screen and (min-width : 768px) and (max-width : 1160px) {
+
+
+    .flexfoot {
+        width: 85%;
+    }
+}
