@@ -52,7 +52,7 @@
     flex-shrink: 0;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:799px) {
  
     .filters {
         margin-left: 20px;
@@ -88,7 +88,7 @@
 
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1130px) {
+@media only screen and (min-width : 800px) and (max-width : 1130px) {
 
     .filters {
         display: flex;
@@ -98,5 +98,8 @@
 
     .ecoFami {
         margin-bottom: 20px;
+       
     }
+
+
 }

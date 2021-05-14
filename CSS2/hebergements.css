@@ -41,7 +41,7 @@ span a:hover {
     color: #0065FC;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:799px) {
 
     #hebergements {
         width: 100%;
@@ -67,14 +67,11 @@ span a:hover {
         position: relative;
         left: 0px;    
     }
-
-
-    
-    
+   
 }
 
 
-@media only screen and (min-width : 768px) and (max-width : 1160px) {
+@media only screen and (min-width : 800px) and (max-width : 1160px) {
     
 
     #hebergements {
@@ -82,5 +79,15 @@ span a:hover {
         margin: 0px;
         margin-left: 50px;
         margin-top: 30px;
+        padding-bottom: 30px;
     }
+
+    span {
+        position: relative;
+        bottom: 20px; 
+    }
+
+    
+
+
 }
