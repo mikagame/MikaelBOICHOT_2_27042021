@@ -51,9 +51,8 @@
     transform: scale(1.1);
     flex-shrink: 0;
 }
+@media only screen and (min-width : 351px) and (max-width : 799px) {
 
-@media screen and (max-width:799px) {
- 
     .filters {
         margin-left: 20px;
         display: flex;
@@ -84,6 +83,50 @@
     .ecoFami a {
         margin-right: 10px;
     }
+
+
+}
+
+@media screen and (max-width:350px) {
+ 
+   .ecoFami {
+       display: flex;
+       flex-direction: column;
+       align-items: baseline;
+   }
+
+   .filters {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.filters a {
+    font-size: 16px;
+}
+
+.romAni {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.romAni a {
+    margin-bottom: 15px;
+}
+
+.ecoFami {
+    width: 100%;
+}
+
+.ecoFami a {
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+    
 
 
 }

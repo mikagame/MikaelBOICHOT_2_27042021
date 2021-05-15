@@ -66,7 +66,74 @@ nav a:nth-child(4) {
 
 /*** Mobile ***/
 
-@media screen and (max-width:799px) {
+@media screen and (max-width:350px) {
+
+    .logo {
+        align-self: start;
+        position: relative;
+        left: 20px;
+    }
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 20px;
+}
+
+    nav a:nth-child(2) {
+        width: 100%;
+        grid-column: 1;
+        grid-row: 2;      
+        border-top: none;
+        position: relative;
+        left:0px;
+        bottom: 0px;
+        top: 5px;
+        padding-right: 0px;
+        padding-left: 0px;
+        display: grid;
+        justify-content: center;
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 15px;
+        padding-top: 25px;
+
+    }
+    
+    nav a:nth-child(3) {
+        width: 100%;
+        grid-column: 2;
+        grid-row: 2; 
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+        top: 5px;
+        border-top: none;
+        padding-right: 0px;
+        padding-left: 0px;
+        display: grid;
+        justify-content: center;
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 15px;
+        padding-top: 25px;
+    }
+
+    
+
+    nav a:nth-child(4) {
+        grid-column: 2;
+        grid-row: 1;  
+        position: relative;
+        bottom: 5px;
+        left: 20px;
+    }
+    
+
+
+}
+
+
+@media only screen and (min-width : 351px) and (max-width : 799px) {
 
 
     .logo {
