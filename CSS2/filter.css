@@ -1,12 +1,9 @@
 /*** File .css filter ***/
 
 .filters {
-    
     margin-left: 60px;
     display: flex;
     align-items: center;
-    position: relative;
-    bottom: 20px;
 }
 
 .ecoFami, .romAni {
@@ -125,9 +122,6 @@
     margin-right: 10px;
     margin-bottom: 15px;
 }
-
-    
-
 
 }
 
