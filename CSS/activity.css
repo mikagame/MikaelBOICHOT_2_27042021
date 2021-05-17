@@ -1,0 +1,148 @@
+/*** File .css section activity ***/
+
+#activity {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+}
+
+#activity h2 {
+    font-size: 22px;
+}
+
+#activity h3 {
+    font-size: 15px;
+    margin: 15px;
+}
+
+#activity a {
+    text-decoration: none;
+    color:black;
+}
+
+.bigRowActivity {
+    display: flex;
+}
+
+.rowActivity1, .rowActivity2 {
+    display: flex; 
+}
+
+.rowActivity1 {
+    padding-right: 20px;
+}
+
+.rowActivity2 {
+    margin-left: 20px;
+}
+
+.cardL {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.columnActivity {
+    margin-left: 15px;   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*** Mobile ***/
+
+@media screen and (max-width:799px) {
+
+
+    #activity  {
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-bottom: 45px;
+    }
+
+    #activity h2 {
+        margin-bottom: 30px;
+    }
+
+    
+    .bigRowActivity, .rowActivity1, .rowActivity2  {
+        flex-direction: column;
+    }
+    
+    .cardL, .columnActivity {
+        width: 100%;
+    }
+
+    .columnActivity, .rowActivity2 {
+        margin-left: 0px;
+    }
+
+    .rowActivity2 {
+        margin-right: 20px;
+    }
+
+    .rowActivity1, .cardL {
+        margin-right: 0px;
+    }
+
+}
+
+/*** Tablette ***/
+
+@media only screen and (min-width : 800px) and (max-width : 1160px) {
+
+    #activity  {
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-bottom: 45px;
+    }
+
+    #activity h2 {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+ 
+     .rowActivity1, .rowActivity2  {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .cardL {
+       width: 100%;
+       margin-bottom: 30px;
+    }
+
+    .columnActivity {
+        width: 100%;
+    }
+
+    .columnActivity, .rowActivity2 {
+        margin-left: 0px;
+    }
+
+    .rowActivity2 {
+        margin-right: 50px;
+    }
+
+    .rowActivity1, .cardL {
+        margin-right: 0px;
+    }
+
+    .bigRowActivity {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .rowActivity1 {
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+
+    .rowActivity2 {
+        margin-left: 5px;
+    }
+    .cardS, .cardM {
+        margin-bottom: 30px;
+    }
+
+}

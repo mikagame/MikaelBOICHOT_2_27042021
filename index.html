@@ -2,48 +2,55 @@
 <html lang="fr">
 
 <head>
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
     <title>reservia</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="CSS2/activity.css">
-    <link rel="stylesheet" href="CSS2/card.css">
-    <link rel="stylesheet" href="CSS2/hebergements.css">
-    <link rel="stylesheet" href="CSS2/hebpop.css">
-    <link rel="stylesheet" href="CSS2/popular.css">
-    <link rel="stylesheet" href="CSS2/img.css">
-    <link rel="stylesheet" href="CSS2/footer.css">
-    <link rel="stylesheet" href="CSS2/navbar.css">
-    <link rel="stylesheet" href="CSS2/search.css">
-    <link rel="stylesheet" href="CSS2/filter.css">
-    <link rel="stylesheet" href="CSS2/general.css">
+    <link rel="stylesheet" href="CSS/activity.css">
+    <link rel="stylesheet" href="CSS/card.css">
+    <link rel="stylesheet" href="CSS/hebergements.css">
+    <link rel="stylesheet" href="CSS/hebpop.css">
+    <link rel="stylesheet" href="CSS/popular.css">
+    <link rel="stylesheet" href="CSS/img.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/search.css">
+    <link rel="stylesheet" href="CSS/filter.css">
+    <link rel="stylesheet" href="CSS/general.css">
 
     <script src="https://kit.fontawesome.com/ac2f95dbfe.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
+
         <!-- NAVIGATION -->
-            <nav>
-                        <div class="logo">
-                            <img src="images/logo/Reservia.svg" alt="logo reservia" />
-                        </div>                        
-                        <a href="#hebergements">Hébergements</a>
-                        <a href="#activity">Activités</a>  
-                        <a href="#">S'inscrire</a> 
-            </nav>
-    <div class="title">
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-    </div>
-</header>
+
+        <nav>
+            <div class="logo">
+                <img src="images/logo/Reservia.svg" alt="logo reservia" />
+            </div>
+            <a href="#hebergements">Hébergements</a>
+            <a href="#activity">Activités</a>
+            <a href="#">S'inscrire</a>
+        </nav>
+        <div class="title">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+        </div>
+    </header>
+
     <!-- RECHERCHE -->
+
     <form>
         <div class="position"><i class="fas fa-map-marker-alt"></i></div>
         <input class="zoneSearch" type="search" name="recherche" placeholder="Marseille, France">
         <input class="buttonSearch" type="submit" value="Rechercher">
         <button class="loupe"><i class="fas fa-search"></i></button>
     </form>
+
     <!-- FILTRES -->
+
     <div class="filters">
         <p>Filtres</p>
         <div class="ecoFami">
@@ -59,9 +66,13 @@
         <i class="fas fa-info"></i>
         <p>Plus de 500 logements sont disponibles dans cette ville</p>
     </div>
+
     <!-- SECTIONS HEBERGEMENTS + POPULAIRES -->
+
     <div class="hebpop">
+
         <!-- HEBERGEMENTS -->
+
         <section id="hebergements">
             <h2>Hébergements à Marseille</h2>
             <div class="gridHeb">
@@ -71,7 +82,7 @@
                             alt="Auberge La Cannebière" />
                         <div class="textCardHeb">
                             <h3>Auberge la Cannebière</h3>
-                            <p>Nuit à partir de <strong>25€</strong></p>                      
+                            <p>Nuit à partir de <strong>25€</strong></p>
                             <div class="star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -91,24 +102,23 @@
                         <div class="textCardHeb">
                             <h3>Hôtel du port</h3>
                             <p>Nuit à partir de 52<strong>€</strong></p>
-                       
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="card">
                         <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                             alt="Hôtel Les mouettes" />
-                       <div class="textCardHeb">
+                        <div class="textCardHeb">
                             <h3>Hôtel Les mouettes</h3>
-                            <p>Nuit à partir de 76<strong>€</strong></p>                              
+                            <p>Nuit à partir de 76<strong>€</strong></p>
                             <div class="star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -128,19 +138,18 @@
                         <div class="textCardHeb">
                             <h3>Hôtel de la mer</h3>
                             <p>Nuit à partir de 46<strong>€</strong></p>
-                        
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <div class="greyStar">
+                            <div class="star">
                                 <i class="fas fa-star"></i>
-                            </div>
-                            <div class="greyStar">
                                 <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <div class="greyStar">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="greyStar">
+                                    <i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </a>
                 <a href="#">
@@ -150,17 +159,16 @@
                         <div class="textCardHeb">
                             <h3>Auberge Le Panier</h3>
                             <p>Nuit à partir de <strong>23€</strong></p>
-                       
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <div class="greyStar">
+                            <div class="star">
                                 <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <div class="greyStar">
+                                    <i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </a>
                 <a href="#">
@@ -170,22 +178,21 @@
                         <div class="textCardHeb">
                             <h3>Hôtel chez Amina</h3>
                             <p>Nuit à partir de 96<strong>€</strong></p>
-                        
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </a>
             </div>
             <span><a href="#">Afficher plus</a></span>
         </section>
 
-<!-- POPULAIRES -->
+        <!-- POPULAIRES -->
 
         <section class="popular">
             <div class="popicone">
@@ -231,7 +238,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </a>
                 <a href="#">
@@ -258,7 +264,9 @@
             </div>
         </section>
     </div>
+
     <!-- ACTIVITES -->
+
     <section id="activity">
         <h2>Activités à Marseille</h2>
         <div class="bigRowActivity">
@@ -272,25 +280,25 @@
                         </div>
                     </a>
                 </div>
-                <div class="columnActivity">                   
-                        <div class="cardM">
-                            <a href="#">
-                                <div class="card">
-                                    <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                                        alt="Fort de Pomègues" />
-                                    <h3>Fort de Pomègues</h3>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="cardS">
-                            <a href="#">
-                                <div class="card">
-                                    <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                                        alt="Îles du Frioul" />
-                                    <h3>Îles du Frioul</h3>
-                                </div>
-                            </a>
-                        </div>
+                <div class="columnActivity">
+                    <div class="cardM">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                    alt="Fort de Pomègues" />
+                                <h3>Fort de Pomègues</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardS">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                                    alt="Îles du Frioul" />
+                                <h3>Îles du Frioul</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="rowActivity2">
@@ -304,30 +312,31 @@
                     </a>
                 </div>
                 <div class="columnActivity">
-                        <div class="cardS">
-                            <a href="#">
-                                <div class="card">
-                                    <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                                        alt="Notre-Dame-de-la-Garde" />
-                                    <h3>Notre-Dame-de-la-Garde</h3>
-                                </div>
-                            </a>
-                        </div>                   
-                        <div class="cardM">
-                            <a href="#">
-                                <div class="card">
-                                    <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                                        alt="Parc Longchamp" />
-                                    <h3>Parc Longchamp</h3>
-                                </div>
-                            </a>
-                        </div>                  
+                    <div class="cardS">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                                    alt="Notre-Dame-de-la-Garde" />
+                                <h3>Notre-Dame-de-la-Garde</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardM">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                                    alt="Parc Longchamp" />
+                                <h3>Parc Longchamp</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
+
     <footer>
         <div class="flexfoot">
             <div class="apropos">

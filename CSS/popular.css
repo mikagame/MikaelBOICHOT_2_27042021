@@ -1,0 +1,89 @@
+/*** File .css section popular ***/
+
+.popular {
+    width: 30%;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.popular a {
+    margin: 10px;
+}
+
+.popular h2 {
+    font-size: 22px;
+    margin-bottom: 0px;   
+}
+
+.popicone {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.popicone {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.flexPop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width:799px) {
+
+    .popular {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 20px;
+        border-radius: 0px;
+        padding-bottom: 40px;
+    }
+
+    .popicone {
+        margin-left: 10px;
+        margin-right: 10px;  
+        margin-bottom: 20px;
+    }
+
+    .flexPop {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .popular a {
+        margin-bottom: 5px;
+    }
+
+}
+
+
+@media only screen and (min-width : 800px) and (max-width : 1160px) {
+
+    
+    .popular {
+        width: 100%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .popular a {
+        width: 33%;
+    }
+
+    .flexPop {
+        display: flex;
+        flex-direction: row;
+    }
+
+}

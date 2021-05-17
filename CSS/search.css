@@ -1,0 +1,117 @@
+/*** File .css search ***/
+
+form {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.position i {
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 20px;
+    padding-top: 18px;
+    padding-bottom: 22px;
+}
+
+.zoneSearch {
+    width: 240px;
+    padding-right: 0px;
+    padding-left: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px solid #F2F2F2;
+    font-size: 18px;
+    -webkit-appearance: none;
+    border-radius: 0;
+
+}
+
+.zoneSearch:focus {
+    border-color: #0065FC;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.zoneSearch:focus::placeholder {
+    opacity: 50%;
+}
+
+.zoneSearch::placeholder {
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    opacity: 100%;    
+}
+
+.buttonSearch {
+    padding: 16px;
+    border: 1px solid #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0065FC;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;   
+}
+
+.buttonSearch:hover {
+    cursor: pointer;
+}
+
+input:focus {
+    outline: #0065FC;
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+.loupe {
+    display: none;
+}
+
+@media screen and (max-width:799px) {
+ 
+    form {
+        margin-left: 20px;
+      
+    }
+
+    .buttonSearch {
+        display: none;
+    }
+
+    .zoneSearch {
+        width: 70%;
+        max-width: 260px;
+        padding-left: 5%;
+    }
+   
+    .loupe {
+        display: flex;
+    }
+
+    button {
+        border: none;
+        background-color: #0065fc;
+        z-index: 1;
+        position: relative;
+        right: 30px;
+        border-radius: 15px;
+        padding: 19px;
+        color: white;
+        font-size: 18px;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+
+
+}
