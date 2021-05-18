@@ -24,9 +24,7 @@ form {
     padding-bottom: 16px;
     border: 1px solid #F2F2F2;
     font-size: 18px;
-    -webkit-appearance: none;
     border-radius: 0;
-
 }
 
 .zoneSearch:focus {
@@ -50,7 +48,7 @@ form {
 
 .buttonSearch {
     padding: 16px;
-    border: 1px solid #0065FC;
+   /* border: 1px solid #0065FC;*/
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #0065FC;
@@ -65,10 +63,6 @@ form {
 
 input:focus {
     outline: #0065FC;
-}
-
-input {
-    -webkit-appearance: none;
 }
 
 .loupe {
