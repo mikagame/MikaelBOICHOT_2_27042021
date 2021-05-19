@@ -76,7 +76,7 @@
 
 /*** Mobile ***/ 
 
-@media screen and (max-width:799px) {
+@media screen and (max-width:767px) {
 
     .popular .card {
         margin-bottom: 0px;
@@ -88,7 +88,7 @@
 
 }
 
-@media only screen and (min-width : 800px) and (max-width : 1160px) {
+@media only screen and (min-width : 768px) and (max-width : 1160px) {
 
     .popular .card {
         display: flex;
@@ -98,5 +98,18 @@
     .textCardPop p {   
         margin-bottom: 10px;
     }
+
+   
     
+}
+@media only screen and (min-width : 768px) and (max-width : 800px) {
+.card h3 {
+    font-size: 14px;
+     
+}
+
+.card p {
+    font-size: 12px;
+    
+}
 }

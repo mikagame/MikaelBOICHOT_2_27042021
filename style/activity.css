@@ -51,7 +51,7 @@
 
 /*** Mobile ***/
 
-@media screen and (max-width:799px) {
+@media screen and (max-width:767px) {
 
 
     #activity  {
@@ -89,7 +89,7 @@
 
 /*** Tablette ***/
 
-@media only screen and (min-width : 800px) and (max-width : 1160px) {
+@media only screen and (min-width : 768px) and (max-width : 1160px) {
 
     #activity  {
         margin-left: 30px;

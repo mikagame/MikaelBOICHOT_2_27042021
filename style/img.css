@@ -33,7 +33,7 @@ img {
 
 /*** Mobile ***/
 
-@media screen and (max-width:799px) {
+@media screen and (max-width:767px) {
 
     .cardL img, .cardM img, .cardS img {
         height: 145px;
@@ -43,7 +43,7 @@ img {
 
 }
 
-@media only screen and (min-width : 800px) and (max-width : 1160px) {
+@media only screen and (min-width : 768px) and (max-width : 1160px) {
 
     .popular img {
         border-top-left-radius: 15px;
@@ -58,9 +58,18 @@ img {
         height: 145px;
     
     }
-    
+     
+}
+
+@media only screen and (min-width : 2000px) {
+    #hebergements img {
+        height: 185px;
+    }
+
+    .popular img {
+       
+        height: 205px;
+    }
 
 
-
-    
 }
