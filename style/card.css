@@ -97,19 +97,15 @@
 
     .textCardPop p {   
         margin-bottom: 10px;
-    }
-
-   
+    }   
     
 }
 @media only screen and (min-width : 768px) and (max-width : 800px) {
 .card h3 {
-    font-size: 14px;
-     
+    font-size: 14px;  
 }
 
 .card p {
-    font-size: 12px;
-    
+    font-size: 12px;  
 }
 }
